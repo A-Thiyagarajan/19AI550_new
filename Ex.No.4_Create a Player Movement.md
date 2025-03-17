@@ -1,6 +1,6 @@
 # Ex.No: 4  Create a player Movement Script in unity 
 ### DATE:                                                                            
-### REGISTER NUMBER : 
+### REGISTER NUMBER : 212222240110
 ### AIM: 
 To write a program to create a player movement in unity.
 ### Algorithm:
@@ -25,20 +25,15 @@ using UnityEngine;
 
 public class Player_movement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public float speed;
-    void Start()
-    {
-        float xdir = Input.GetAxis("horizontal") * speed;
-        float zdir = Input.GetAxis("vertical") * speed;
-        transform.position=new Vector3(xdir,zdir);
-    }
+    public float speed = 5.0f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+void Update()
+{
+    float xdir = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+    float zdir = Input.GetAxis("Vertical") * speed * Time.deltaTime;
+
+    transform.Translate(xdir, 0, zdir);
+}
 }
 
 ```
