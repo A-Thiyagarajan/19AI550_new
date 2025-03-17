@@ -44,10 +44,14 @@ public class Player_movement : MonoBehaviour
 ```
 ### Output:
 
+![41](https://github.com/user-attachments/assets/eaa695c2-16eb-4fbf-a4be-0a7fac41be1b)
+
+![42](https://github.com/user-attachments/assets/fd4fcb60-2da3-416e-946c-c43d366d42ae)
+
+![43](https://github.com/user-attachments/assets/98453693-1187-40c0-ad84-a604332389fb)
 
 
-
-
+![44](https://github.com/user-attachments/assets/b13eabc2-5dd7-49d2-9a1e-f1501a9c54ac)
 
 
 
