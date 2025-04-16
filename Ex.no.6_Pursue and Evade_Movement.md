@@ -1,6 +1,6 @@
 # Ex.No: 6  Implementation of Steering behaviour-Pursue and Evade in Unity
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:                                                                           
+### REGISTER NUMBER : 212222240110
 ### AIM: 
 To write a program to simulate the process of Pursue and Evade behavior in Unity using NavigationMeshAgent. 
 ### Algorithm:
@@ -29,7 +29,17 @@ To write a program to simulate the process of Pursue and Evade behavior in Unity
     Pursuer: Set Speed = 4.
     Evader: Set Speed = 6.
 5. Write a script for  Player_movement behavior and save it
+6. Write script for Pursuer and Evader.
+7. Attach the Script to each player,pursuer and Evader.
+   Drag & Drop the Target from the Hierarchy into the "Target" field in the script component ( For pursuer and Evader).
+12. Run the game 
+13. Stop the program
+    
+```
 
+### Program:
+Player Script:
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -51,7 +61,9 @@ public class Player_movement : MonoBehaviour
         
     }
 }
-**Evader script**
+```
+Evader Script:
+```
 public class Evader : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -76,7 +88,11 @@ public class Evader : MonoBehaviour
         evade();          
      }
 }
-**Pursuer script**
+
+```
+
+Pursuer Script:
+```
 public class Pursuer: MonoBehaviour
 {
     // Start is called before the first frame update
@@ -100,19 +116,11 @@ public class Pursuer: MonoBehaviour
         pursue();          
      }
 }
-7. Attach the Script to each player,pursuer and Evader.
-   Drag & Drop the Target from the Hierarchy into the "Target" field in the script component ( For pursuer and Evader).
-12. Run the game 
-13. Stop the program
-    
+
 ```
 ### Output:
 
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/cbb2754b-5957-4e47-9212-fcff79c07c7c)
 
 
 
